@@ -1,10 +1,6 @@
 """Main entry point for AlphaZero Connect Four training."""
 
 from pettingzoo.classic import connect_four_v3
-from config import Config
-from alphazero_model import AlphaZeroModel
-from mcts import MCTS
-from trainer import AlphaZeroTrainer
 
 def main():
     """Main function to run AlphaZero training."""
