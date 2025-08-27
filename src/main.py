@@ -11,7 +11,7 @@ def main():
     # Seed helps us make sure everything runs the same for all of us
     env.reset(seed=42)
 
-    for agent in env.agent_iter():
+    for agent in env.agent_iter(max_iter=20): # iterates on player turns
         # Each time a step/ action is taken, the below variables are updated
         # and then fetched using the env.last() method
         observation, reward, termination, truncation, info = env.last()
