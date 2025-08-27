@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Documentation (as requested in CLAUDE.md)
+docs/
+claude.md
